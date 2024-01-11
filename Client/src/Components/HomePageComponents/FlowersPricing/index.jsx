@@ -27,7 +27,10 @@ const Flowers = () => {
 
 
       {products && products.map((item)=>(
+        <div className='crd'>
       <Card key={item._id} id={item._id} image={item.image} name={item.name} price={item.price}  />
+
+        </div>
 
       ))}
 </div>

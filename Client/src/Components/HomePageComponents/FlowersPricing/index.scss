@@ -1,6 +1,7 @@
 .BtnMonth{
     text-align: center;
-   
+    display: flex;
+        flex-wrap: wrap;
     .btnn{
         width: 200px;
         height: 40px;
@@ -18,11 +19,22 @@
     }
     #Flower{
        min-height: 100vh;
+       background-color: RED;
+       display: flex;
+       flex-wrap: wrap;
          .CardArea{
+padding: 0px 20px;
+            background-color: green;
+            align-items: center;
+            justify-content: center;
             margin-top: 100px;
             display: flex;
-        display:grid;
-       grid-template-columns: 1fr 1fr 1fr ;
+        flex-wrap: wrap;
+        gap: 20px;
+       .crd{
+        background-color: orange;
+width: 300px;
+       }
     }
     }
    
