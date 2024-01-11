@@ -1,0 +1,67 @@
+#EventsPricing {
+    min-height: 100vh;
+    background-image: url('https://mobirise.com/extensions/floram4/floral-studio/assets/images/background2.jpg');
+
+    .EventsArea {
+        .EventsAreaText {
+            align-items: center;
+          flex-direction: column;
+          display: flex;
+           justify-content: center;
+           p{
+            font-size: 22px;
+            color: #0c5b47;
+           }
+           h1{
+            font-size: 50px;
+            color: #0c5b47;
+           }
+
+        }
+
+        .EventsAreaBox {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 200px;
+
+            .AreaBox {
+                width: 350px;
+                height: 380px;
+                border: 1px solid #338873;
+                background-color: #fef1e6;
+
+                .EventsText {
+                    margin-left: 90px;
+                    margin-top: 60px;
+                    align-items: center;
+                    color: green;
+
+                    h1 {
+                        font-size: 40px;
+                    }
+
+                    h5 {
+                        font-size: 20px;
+                        color: black;
+                    }
+
+                    p {
+                        font-size: 18px;
+                        color: black;
+                    }
+
+                    .ShopBtn {
+                        width: 100px;
+                        height: 40px;
+                        font-size: 14px;
+                        background-color: #d8e3d5;
+                        border: 1px solid #d8e3d5;
+                    }
+                }
+            }
+        }
+    }
+}

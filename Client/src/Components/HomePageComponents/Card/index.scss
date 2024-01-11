@@ -1,0 +1,119 @@
+.card0 {
+    position: relative;
+    margin: auto;
+    // width: 200px;
+    // height: 40px;
+
+    .CardIcon {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+
+        div {
+            cursor: pointer;
+          
+            border-radius: 50%;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 5px;
+            
+
+            &:hover {
+                color: #DB4444;
+                transition: 0.5s;
+                font-size: 20px;
+            }
+        }
+
+        .regeye {
+            color: black;
+
+            &:hover {
+                color: #DB4444;
+                font-size: 20px;
+                transition: 0.5s;
+            }
+        }
+    }
+
+    .add {
+        border-radius: 0px 0px 4px 4px;
+        background-color: black;
+        padding: 12px 0;
+        position: absolute;
+        display: none;
+        bottom: 0;
+       
+        text-align: center;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #DB4444;
+        }
+
+        a {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            color: white !important;
+            transition: 0.7s;
+        }
+    }
+
+    .card-comp {
+        background-color: #F5F5F5;
+        padding: 95px 40px;
+       
+
+        .image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                max-width: 172px;
+                max-height: 152px;
+                flex-shrink: 0;
+            }
+        }
+    }
+
+    .content {
+        h2 {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+        }
+
+        .price {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            color: var(--main--color);
+        }
+
+        .discount {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+
+            opacity: 0.5;
+        }
+
+        .raiting {
+            display: flex;
+        }
+    }
+}
+
+.card0:hover .add {
+    display: block;
+    transform: translateY(-162px);
+    transition: 0.5s;
+}

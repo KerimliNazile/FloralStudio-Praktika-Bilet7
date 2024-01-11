@@ -1,0 +1,145 @@
+#OurMission {
+    height: 100vh;
+    background-image: url('https://mobirise.com/extensions/floram4/floral-studio/assets/images/background2.jpg');
+
+    .OurMissionArea {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 1068px;
+        margin: auto;
+        position: relative;
+        top: 150px;
+
+        .LeftMission {
+            width: 534px;
+            height: 503px;
+            background-color: #1b745e;
+            .MissionText{
+                margin-top: 150px;
+                margin-left: 50px;
+                align-items: center;
+               max-width: 300px;
+                height: 80px;
+                color: bisque;
+                h1{
+                    font-size: 2.3rem;
+                }
+                p{
+                    font-size: 1rem;
+                }
+                .ReadBtn{
+                width: 100px;
+                height: 40px;
+                background-color: #d8e3d5;
+                border: 1px solid #d8e3d5;
+            }
+            }
+            
+        }
+
+        .RightMission {
+img{
+    width: 503px;
+}
+        }
+    }
+}
+@media only screen and (max-width: 1124px){
+    #OurMission {
+        height: 100vh;
+        background-image: url('https://mobirise.com/extensions/floram4/floral-studio/assets/images/background2.jpg');
+    .OurMissionArea {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 800px;
+        margin: auto;
+        position: relative;
+        top: 150px;
+
+        .LeftMission {
+            width: 450px;
+            height: 400px;
+            background-color: #1b745e;
+            .MissionText{
+                margin-top: 150px;
+                margin-left: 50px;
+                align-items: center;
+               min-width: 300px;
+                height: 80px;
+                color: bisque;
+                h1{
+                    font-size: 2.3rem;
+                }
+                p{
+                    font-size: 1rem;
+                }
+                .ReadBtn{
+                width: 100px;
+                height: 40px;
+                background-color: #d8e3d5;
+                border: 1px solid #d8e3d5;
+            }
+            }
+            
+        }
+
+        .RightMission {
+img{
+    width: 400px;
+}
+        }
+    }
+}
+}
+@media only screen and (max-width: 760px){
+    #OurMission {
+        height: 100vh;
+        background-image: url('https://mobirise.com/extensions/floram4/floral-studio/assets/images/background2.jpg');
+    .OurMissionArea {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        // min-width: 600px;
+        margin: auto;
+        position: relative;
+        top: 100px;
+
+        .LeftMission {
+            width: 300px;
+            height: 250px;
+            background-color: #1b745e;
+            .MissionText{
+                margin-top: 150px;
+                margin-left: 50px;
+                align-items: center;
+               min-width: 300px;
+                height: 80px;
+                color: bisque;
+                h1{
+                    font-size: 2.3rem;
+                }
+                p{
+                    font-size: 1rem;
+                }
+                .ReadBtn{
+                width: 100px;
+                height: 40px;
+                background-color: #d8e3d5;
+                border: 1px solid #d8e3d5;
+            }
+            }
+            
+        }
+
+        .RightMission {
+img{
+    width: 250px;
+}
+        }
+    }
+}
+
+}

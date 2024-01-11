@@ -1,0 +1,38 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(16, 99, 78, 0.9);
+    height: 70px;
+
+    z-index: 2;
+
+    .FloralNav {
+        color: bisque;
+        margin-left: 40px;
+    }
+
+    .MainNav {
+        margin-right: 40px;
+        .NavArea {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            list-style: none;
+
+            li a {
+                color: bisque;
+                text-decoration: none;
+                &:hover{
+                    color: orange;
+                    border-bottom: 1px solid orange;
+                    transition: 0.5s;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 920px){
+
+}
